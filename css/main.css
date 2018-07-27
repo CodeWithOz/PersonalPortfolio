@@ -31,3 +31,8 @@ img {
   margin: 2vw;
   text-align: right;
 }
+
+/* Main content */
+.main-content {
+  padding: 2vw;
+}
