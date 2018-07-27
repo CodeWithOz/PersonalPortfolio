@@ -1,6 +1,6 @@
 # Personal Portfolio #
 Welcome to my personal portfolio :smile: :wave:. I expect to update
-this repo with some frequency, to reflect some of the work I have
+this repo with some frequency to reflect some of the work I have
 performed since the previous update. I also expect to one day move the
 contents to my own personal website, at which point I will likely stop
 updating this repo.
@@ -19,5 +19,5 @@ generous with open source projects :wink:.)
 ### License ###
 MIT.
 
-While I very likely will not accept any pull requests, you are more than
+Though I very likely will not accept any pull requests, you are more than
 welcome to fork this repo and work with it :+1:.
