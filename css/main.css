@@ -1,4 +1,5 @@
 /* General styling */
+
 html, body {
   box-sizing: border-box;
 }
@@ -8,6 +9,7 @@ img {
 }
 
 /* Header */
+
 .header .main {
   align-items: center;
   box-sizing: border-box;
@@ -33,6 +35,7 @@ img {
 }
 
 /* Main content */
+
 .main-content {
   padding: 2vw;
 }
