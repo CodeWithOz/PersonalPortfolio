@@ -1,5 +1,29 @@
 /* General styling */
 html, body {
   box-sizing: border-box;
+}
+
+/* header */
+.header .main {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2vw;
   width: 100%;
+}
+
+.header .logo {
+  height: 100%;
+  width: 25%;
+}
+
+.header .main-text {
+  text-align: right;
+  width: 75%;
+}
+
+.header .sub-text {
+  margin: 2vw;
+  text-align: right;
 }
