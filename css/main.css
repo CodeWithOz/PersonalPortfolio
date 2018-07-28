@@ -39,3 +39,25 @@ img {
 .main-content {
   padding: 2vw;
 }
+
+/* About Me section */
+
+.wrapper {
+  display: grid;
+}
+
+.my-pic {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.tidbits {
+  list-style: square;
+
+  /* margin uncollapses with grid display; must be collapsed */
+  margin-top: -1em;
+
+  /* align bullets with other content */
+  padding-left: 1em;
+
+}
