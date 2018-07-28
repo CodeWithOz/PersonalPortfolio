@@ -66,13 +66,24 @@ img {
 
 /* Featured Work section */
 
+.featured-work .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.thumbnail {
+  background: center/contain no-repeat;
+  height: 200px;
+  margin: 0 auto;
+  width: 70%;
+}
+
 .pic-1 {
   background-image: url(../images_sm/hubbon.png);
 }
 
 .pic-2 {
   background-image: url(../images_sm/pixel_art_maker.jpg);
-
 }
 
 .pic-3 {
