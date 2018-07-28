@@ -43,7 +43,7 @@ img {
 
 /* About Me section */
 
-.wrapper {
+.about-me .wrapper {
   display: grid;
   text-align: justify;
 }
