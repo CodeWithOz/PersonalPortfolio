@@ -45,6 +45,7 @@ img {
 
 .wrapper {
   display: grid;
+  text-align: justify;
 }
 
 .my-pic {
