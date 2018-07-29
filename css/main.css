@@ -223,6 +223,8 @@ a:active {
 }
 
 .contact-icon {
+  font-size: 2em;
+
   /* add spacing before text */
   margin-right: 0.5em;
 
