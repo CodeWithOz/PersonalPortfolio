@@ -179,3 +179,32 @@ img {
   color: #70a1fa;
   text-decoration: underline #70a1fa;
 }
+
+/* Contact Me section */
+
+.contact-options {
+  /* remove indentation of list items */
+  padding: 0;
+
+  list-style: none;
+}
+
+.contact-option {
+  align-items: center;
+  display: flex;
+  margin: 1em 0;
+}
+
+.contact-icon {
+  /* add spacing before text */
+  margin-right: 0.5em;
+
+  text-align: right;
+  width: 20%;
+}
+
+.contact-detail {
+  margin: 0;
+  text-align: center;
+  width: 80%;
+}
