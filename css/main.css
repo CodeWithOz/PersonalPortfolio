@@ -80,13 +80,37 @@ img {
 }
 
 .pic-1 {
-  background-image: url(../images_sm/hubbon.png);
+  background-image: url(../images_resp/sm/hubbon_1x.png);
+  background-image: -webkit-image-set(
+    url(../images_resp/sm/hubbon_1x.png) 1x,
+    url(../images_resp/sm/hubbon_2x.png) 2x
+  );
+  background-image: image-set(
+    url(../images_resp/sm/hubbon_1x.png) 1x,
+    url(../images_resp/sm/hubbon_2x.png) 2x
+  );
 }
 
 .pic-2 {
-  background-image: url(../images_sm/pixel_art_maker.jpg);
+  background-image: url(../images_resp/sm/pixel_art_maker_1x.jpg);
+  background-image: -webkit-image-set(
+    url(../images_resp/sm/pixel_art_maker_1x.jpg) 1x,
+    url(../images_resp/sm/pixel_art_maker_2x.jpg) 2x
+  );
+  background-image: image-set(
+    url(../images_resp/sm/pixel_art_maker_1x.jpg) 1x,
+    url(../images_resp/sm/pixel_art_maker_2x.jpg) 2x
+  );
 }
 
 .pic-3 {
-  background-image: url(../images_sm/the_responsive_blog.png);
+  background-image: url(../images_resp/sm/the_responsive_blog_1x.png);
+  background-image: -webkit-image-set(
+    url(../images_resp/sm/the_responsive_blog_1x.png) 1x,
+    url(../images_resp/sm/the_responsive_blog_2x.png) 2x
+  );
+  background-image: image-set(
+    url(../images_resp/sm/the_responsive_blog_1x.png) 1x,
+    url(../images_resp/sm/the_responsive_blog_2x.png) 2x
+  );
 }
