@@ -114,3 +114,30 @@ img {
     url(../images_resp/sm/the_responsive_blog_2x.png) 2x
   );
 }
+
+.overlay {
+  align-items: center;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  display: flex;
+  height: 30%;
+  justify-content: center;
+  position: relative;
+  top: 70%;
+}
+
+.overlay .link {
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: underline #70a1fa;
+}
+
+.overlay .link:hover {
+  color: #70a1fa;
+  text-decoration: underline #70a1fa;
+}
+
+.overlay .link:active {
+  color: #70a1fa;
+  text-decoration: underline #70a1fa;
+}
