@@ -71,11 +71,17 @@ img {
   flex-wrap: wrap;
 }
 
+.border-radius {
+  border: 1px solid #aaa;
+  border-radius: 15px;
+  margin: 10px auto;
+  padding: 5px;
+}
+
 .thumbnail {
   background: center/cover no-repeat;
   border-radius: 10px;
   height: 270px;
-  margin: 10px auto;
   max-width: 90vw;
   width: 350px;
 }
