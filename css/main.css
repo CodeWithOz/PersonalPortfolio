@@ -87,6 +87,9 @@ img {
   */
   margin: 10px auto;
 
+  /* limit child elements to (most of) the viewport width */
+  max-width: 90%;
+
   /* add space between image and 1px border */
   padding: 5px;
 }
@@ -102,7 +105,10 @@ img {
   border-radius: 10px;
 
   height: 270px;
-  max-width: 90vw;
+
+  /* limit thumbnail to its container's width */
+  max-width: 100%;
+
   width: 350px;
 }
 
