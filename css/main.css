@@ -24,16 +24,19 @@ a {
   /* increase clickable area of links */
   padding: 0.5em 0;
 
+  -webkit-text-decoration: underline #5161d3;
   text-decoration: underline #5161d3;
 }
 
 a:hover {
   color: #9129c6;
+  -webkit-text-decoration: underline #9129c6;
   text-decoration: underline #9129c6;
 }
 
 a:active {
   color: #9129c6;
+  -webkit-text-decoration: underline #9129c6;
   text-decoration: underline #9129c6;
 }
 
@@ -194,16 +197,19 @@ a:active {
 .overlay .link {
   color: white;
   font-size: 1.2em;
+  -webkit-text-decoration: underline #70a1fa;
   text-decoration: underline #70a1fa;
 }
 
 .overlay .link:hover {
   color: #70a1fa;
+  -webkit-text-decoration: underline #70a1fa;
   text-decoration: underline #70a1fa;
 }
 
 .overlay .link:active {
   color: #70a1fa;
+  -webkit-text-decoration: underline #70a1fa;
   text-decoration: underline #70a1fa;
 }
 
