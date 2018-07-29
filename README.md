@@ -5,6 +5,10 @@ performed since the previous update. I also expect to one day move the
 contents to my own personal website, at which point I will likely stop
 updating this repo.
 
+### Live Demo ###
+* [Click here](https://codewithoz.github.io/PersonalPortfolio/)
+* Or copy and paste this link into your browser: https://codewithoz.github.io/PersonalPortfolio/
+
 ### Cross-platform testing made possible by [BrowserStack](https://www.browserstack.com) ###
 [![BrowserStack Logo](Browserstack-logo@2x.png)](https://www.browserstack.com)
 
