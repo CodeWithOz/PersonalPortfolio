@@ -231,7 +231,9 @@ a:active {
 }
 
 .contact-detail {
+  /* remove default margin around p element */
   margin: 0;
+
   text-align: center;
   width: 80%;
 }
