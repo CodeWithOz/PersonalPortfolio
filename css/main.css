@@ -70,6 +70,10 @@ a:active {
   padding: 2vw;
 }
 
+.subheading-text {
+  color: #616161;
+}
+
 /* About Me section */
 
 .about-me .wrapper {
