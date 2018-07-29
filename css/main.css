@@ -72,10 +72,11 @@ img {
 }
 
 .thumbnail {
-  background: center/contain no-repeat;
-  height: 200px;
+  background: center/cover no-repeat;
+  height: 270px;
   margin: 0 auto;
-  width: 70%;
+  max-width: 90vw;
+  width: 350px;
 }
 
 .pic-1 {
