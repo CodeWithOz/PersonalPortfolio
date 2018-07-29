@@ -41,6 +41,7 @@ a:active {
 
 .header .main {
   align-items: center;
+  background: #0497ff;
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
@@ -53,6 +54,7 @@ a:active {
 }
 
 .header .main-text {
+  color: white;
   text-align: right;
   width: 75%;
 }
