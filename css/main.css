@@ -19,7 +19,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   padding: 2vw;
-  width: 100%;
 }
 
 .header .logo {
@@ -97,7 +96,7 @@ img {
   * background-position: centers image in the div
   * background-size: image must cover the div entirely
   */
-  background: center/cover no-repeat;
+  background: center/cover;
 
   /* give images rounded edges */
   border-radius: 10px;
