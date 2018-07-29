@@ -6,6 +6,8 @@ html, body {
 
 img {
   border-radius: 10px;
+
+  /* images should not overflow their containers */
   max-width: 100%;
 }
 
@@ -73,14 +75,33 @@ img {
 
 .border-radius {
   border: 1px solid #aaa;
+
+  /*
+  * border-radius is the sum of padding and border-radius of .thumbnail
+  * rounded edges are therefore in parallel
+  */
   border-radius: 15px;
+
+  /*
+  * vertical margin adds spacing between the sibling divs
+  * horizontal centers the contained divs
+  */
   margin: 10px auto;
+
+  /* add space between image and 1px border */
   padding: 5px;
 }
 
 .thumbnail {
+  /*
+  * background-position: centers image in the div
+  * background-size: image must cover the div entirely
+  */
   background: center/cover no-repeat;
+
+  /* give images rounded edges */
   border-radius: 10px;
+
   height: 270px;
   max-width: 90vw;
   width: 350px;
@@ -137,7 +158,10 @@ img {
   color: white;
   font-size: 1.2em;
   font-weight: bold;
+
+  /* increase clickable area of the link */
   padding: 0.5em 0;
+
   text-decoration: underline #70a1fa;
 }
 
