@@ -137,7 +137,10 @@ a:active {
    * center image in the middle of the picture element
    * no need to do this for logo because I want it all the way to the left
    * and it's that way by default
+   * align-items is needed to prevent vertical stretching of image if only
+   * justify-content is set
    */
+  align-items: center;
   display: flex;
   justify-content: center;
 
