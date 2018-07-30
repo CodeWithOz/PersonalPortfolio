@@ -111,10 +111,10 @@ a:active {
 
 .my-pic {
   /*
-  * center image in the middle of the picture element
-  * no need to do this for logo because I want it all the way to the left
-  * and it's that way by default
-  */
+   * center image in the middle of the picture element
+   * no need to do this for logo because I want it all the way to the left
+   * and it's that way by default
+   */
   display: flex;
   justify-content: center;
 
@@ -144,15 +144,15 @@ a:active {
   border: 1px solid #aaa;
 
   /*
-  * border-radius is the sum of padding and border-radius of .thumbnail
-  * rounded edges are therefore in parallel
-  */
+   * border-radius is the sum of padding and border-radius of .thumbnail
+   * rounded edges are therefore in parallel
+   */
   border-radius: 15px;
 
   /*
-  * vertical margin adds spacing between the sibling divs
-  * horizontal centers the contained divs
-  */
+   * vertical margin adds spacing between the sibling divs
+   * horizontal centers the contained divs
+   */
   margin: 10px auto;
 
   /* limit child elements to (most of) the viewport width */
@@ -164,9 +164,9 @@ a:active {
 
 .thumbnail {
   /*
-  * background-position: centers image in the div
-  * background-size: image must cover the div entirely
-  */
+   * background-position: centers image in the div
+   * background-size: image must cover the div entirely
+   */
   background: center/cover;
 
   /* give images rounded edges */
