@@ -70,6 +70,14 @@ a:active {
 /* media queries for medium-sized viewport */
 @media screen and (min-width: 501px) {
   .header .logo {
+    /*
+     * the next breakpoint is 750px; a lot of devies in this range (500-750px)
+     * will be in landscape orientation, meaning they will have small
+     * heights (300px - 450px).
+     * I'm limiting the height to ensure it always takes up less than
+     * half of this height.
+     * One portrait devices, it will still look good
+     */
     max-height: 125px;
   }
 }
