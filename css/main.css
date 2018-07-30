@@ -90,6 +90,29 @@ a:active {
      */
     max-height: 125px;
   }
+
+  .header .main-text {
+    /* make text bigger */
+    font-size: 2.8em;
+
+    /*
+     * ensure that the browser's default h1 margin doesn't increase
+     * the height of the overall header element.
+     * the image with its fixed height should set the height of the
+     * header
+     */
+    margin: 0;
+  }
+
+  .header .sub-text {
+    font-size: 1.3em;
+
+    /*
+     * remove vertical margin to reduce height of overall header content
+     * see explanation above about landscape devices
+     */
+    margin: 0 2vw;
+  }
 }
 
 /* Main content */
