@@ -85,6 +85,14 @@ a:active {
 }
 
 .my-pic {
+  /*
+  * center image in the middle of the picture element
+  * no need to do this for logo because I want it all the way to the left
+  * and it's that way by default
+  */
+  display: flex;
+  justify-content: center;
+
   margin: 0 auto;
   width: 70%;
 }
