@@ -10,6 +10,7 @@ module.exports = function(grunt) {
       // I focused on mobile displays to enforce a mobile-first
       // priority and minimize use cases that I had to account for.
 
+      // task target for logo for small breakpoint
       small_logo: {
         options: {
           // engine: 'im', <-- commented out for Windows (Udacity's instructions)
@@ -37,6 +38,37 @@ module.exports = function(grunt) {
           dest: 'images_resp/sm/'
         }]
       },
+
+      // task target for logo for medium breakpoint
+      med_logo: {
+        options: {
+          // engine: 'im', <-- commented out for Windows (Udacity's instructions)
+          separator: '_',
+          sizes: [
+            {
+              quality: 60,
+              height: 125,
+              density: 150,
+              name: '1x'
+            },
+            {
+              quality: 60,
+              height: 250,
+              density: 300,
+              name: '2x'
+            }
+          ]
+        },
+
+        files: [{
+          expand: true,
+          src: ['bitmoji_uche.jpg'],
+          cwd: 'images_md/',
+          dest: 'images_resp/md/'
+        }]
+      },
+
+      // task target for other images for small breakpoint
       small_not_logo: {
         options: {
           // engine: 'im', <-- commented out for Windows (Udacity's instructions)
@@ -69,16 +101,30 @@ module.exports = function(grunt) {
 
     /* Clear out the images directory if it exists */
     clean: {
+      // task target for folder for small breakpoint
       dev: {
         src: ['images_resp/sm']
+      },
+
+      // task target for folder for medium breakpoint
+      med: {
+        src: ['images_resp/md']
       }
     },
 
     /* Generate the images directory if it is missing */
     mkdir: {
+      // task target for folder for small breakpoint
       dev: {
         options: {
           create: ['images_resp/sm']
+        }
+      },
+
+      // task target for folder for medium breakpoint
+      med: {
+        options: {
+          create: ['images_resp/md']
         }
       }
     }
@@ -92,6 +138,13 @@ module.exports = function(grunt) {
     'mkdir',
     'responsive_images:small_logo',
     'responsive_images:small_not_logo'
+  ]);
+
+  // task for images for medium breakpoint
+  grunt.registerTask('med_imgs', [
+    'clean:med',
+    'mkdir:med',
+    'responsive_images:med_logo'
   ]);
 
 };
