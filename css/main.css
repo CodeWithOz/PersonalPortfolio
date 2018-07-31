@@ -368,6 +368,27 @@ a:active {
   width: 80%;
 }
 
+/* for medium-sized viewport */
+@media screen and (min-width: 501px) {
+  .contact-options {
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contact-option {
+    /* stack the contents */
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 33%;
+  }
+
+  .contact-detail {
+    font-size: 0.8em;
+  }
+}
+
 /* Footer */
 
 .footer {
