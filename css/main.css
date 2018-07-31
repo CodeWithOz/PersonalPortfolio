@@ -210,6 +210,8 @@ a:active {
    */
   border-radius: 15px;
 
+  height: 270px;
+
   /*
    * vertical margin adds spacing between the sibling divs
    * horizontal centers the contained divs
@@ -221,6 +223,8 @@ a:active {
 
   /* add space between image and 1px border */
   padding: 5px;
+
+  width: 350px;
 }
 
 .thumbnail {
@@ -233,12 +237,9 @@ a:active {
   /* give images rounded edges */
   border-radius: 10px;
 
-  height: 270px;
-
-  /* limit thumbnail to its container's width */
-  max-width: 100%;
-
-  width: 350px;
+  /* thumbnail should fill its container */
+  height: 100%;
+  width: 100%;
 }
 
 .pic-1 {
