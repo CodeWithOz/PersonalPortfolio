@@ -321,6 +321,18 @@ a:active {
     /* make thumbnail a little less than 1/3 of the viewport width */
     width: 28%;
   }
+
+  .overlay .link {
+    /* this is for devices between 501-650px */
+    font-size: 0.8em;
+  }
+}
+
+/* minor breakpoint for devices between 651-750px */
+@media screen and (min-width: 650px) {
+  .overlay .link {
+    font-size: 0.9em;
+  }
 }
 
 /* Contact Me section */
