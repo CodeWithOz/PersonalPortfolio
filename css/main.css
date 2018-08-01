@@ -420,6 +420,10 @@ a:active {
     width: 33%;
   }
 
+  .contact-icon {
+    text-align: center;
+  }
+
   .contact-detail {
     font-size: 0.8em;
   }
