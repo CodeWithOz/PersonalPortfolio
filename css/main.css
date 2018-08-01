@@ -322,6 +322,42 @@ a:active {
     width: 28%;
   }
 
+  .pic-1 {
+    background-image: url(../images_resp/md/hubbon_1x.png);
+    background-image: -webkit-image-set(
+      url(../images_resp/md/hubbon_1x.png) 1x,
+      url(../images_resp/md/hubbon_2x.png) 2x
+    );
+    background-image: image-set(
+      url(../images_resp/md/hubbon_1x.png) 1x,
+      url(../images_resp/md/hubbon_2x.png) 2x
+    );
+  }
+
+  .pic-2 {
+    background-image: url(../images_resp/md/pixel_art_maker_1x.jpg);
+    background-image: -webkit-image-set(
+      url(../images_resp/md/pixel_art_maker_1x.jpg) 1x,
+      url(../images_resp/md/pixel_art_maker_2x.jpg) 2x
+    );
+    background-image: image-set(
+      url(../images_resp/md/pixel_art_maker_1x.jpg) 1x,
+      url(../images_resp/md/pixel_art_maker_2x.jpg) 2x
+    );
+  }
+
+  .pic-3 {
+    background-image: url(../images_resp/md/the_responsive_blog_1x.png);
+    background-image: -webkit-image-set(
+      url(../images_resp/md/the_responsive_blog_1x.png) 1x,
+      url(../images_resp/md/the_responsive_blog_2x.png) 2x
+    );
+    background-image: image-set(
+      url(../images_resp/md/the_responsive_blog_1x.png) 1x,
+      url(../images_resp/md/the_responsive_blog_2x.png) 2x
+    );
+  }
+
   .overlay .link {
     /* this is for devices between 501-650px */
     font-size: 0.8em;
