@@ -402,6 +402,42 @@ a:active {
      */
     max-height: 245px;
   }
+
+  .pic-1 {
+    background-image: url(../images_resp/lg/hubbon_1x.jpg);
+    background-image: -webkit-image-set(
+      url(../images_resp/lg/hubbon_1x.jpg) 1x,
+      url(../images_resp/lg/hubbon_2x.jpg) 2x
+    );
+    background-image: image-set(
+      url(../images_resp/lg/hubbon_1x.jpg) 1x,
+      url(../images_resp/lg/hubbon_2x.jpg) 2x
+    );
+  }
+
+  .pic-2 {
+    background-image: url(../images_resp/lg/pixel_art_maker_1x.jpg);
+    background-image: -webkit-image-set(
+      url(../images_resp/lg/pixel_art_maker_1x.jpg) 1x,
+      url(../images_resp/lg/pixel_art_maker_2x.jpg) 2x
+    );
+    background-image: image-set(
+      url(../images_resp/lg/pixel_art_maker_1x.jpg) 1x,
+      url(../images_resp/lg/pixel_art_maker_2x.jpg) 2x
+    );
+  }
+
+  .pic-3 {
+    background-image: url(../images_resp/lg/the_responsive_blog_1x.jpg);
+    background-image: -webkit-image-set(
+      url(../images_resp/lg/the_responsive_blog_1x.jpg) 1x,
+      url(../images_resp/lg/the_responsive_blog_2x.jpg) 2x
+    );
+    background-image: image-set(
+      url(../images_resp/lg/the_responsive_blog_1x.jpg) 1x,
+      url(../images_resp/lg/the_responsive_blog_2x.jpg) 2x
+    );
+  }
 }
 
 /* Contact Me section */
