@@ -1,6 +1,7 @@
 /* General styling */
 
-html, body {
+html,
+body {
   box-sizing: border-box;
   font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
   margin: auto;
