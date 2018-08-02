@@ -201,6 +201,9 @@ a:active {
   .my-pic {
     /* full length image on the left */
     grid-row: 1 / 4;
+
+    /* fill up more of the available space */
+    width: 90%;
   }
 
   .tidbits-intro,
