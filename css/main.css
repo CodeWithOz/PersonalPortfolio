@@ -3,6 +3,8 @@
 html, body {
   box-sizing: border-box;
   font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+  margin: auto;
+  max-width: 900px;
 }
 
 h1,
