@@ -131,6 +131,37 @@ module.exports = function(grunt) {
         }]
       },
 
+      // task target for my pic for large breakpoint
+      lg_my_pic: {
+        options: {
+          // engine: 'im', <-- commented out for Windows (Udacity's instructions)
+          separator: '_',
+          sizes: [
+            {
+              // use full quality because these screens are big
+              quality: 100,
+              width: 389,
+              density: 150,
+              name: '1x'
+            },
+            {
+              quality: 100,
+              width: 778,
+              density: 300,
+              name: '2x'
+            }
+          ]
+        },
+
+        files: [{
+          expand: true,
+          // process my pic
+          src: ['real_uche.jpg'],
+          cwd: 'images_lg/',
+          dest: 'images_resp/lg/'
+        }]
+      },
+
       // task target for Featured Work images for medium breakpoint
       med_featured_work: {
         options: {
@@ -159,6 +190,39 @@ module.exports = function(grunt) {
           cwd: 'images_md/',
           dest: 'images_resp/md/'
         }]
+      },
+
+      // task target for Featured Work images for medium breakpoint
+      lg_featured_work: {
+        options: {
+          // engine: 'im', <-- commented out for Windows (Udacity's instructions)
+          separator: '_',
+          sizes: [
+            // use full quality because these screens are large
+            {
+              quality: 100,
+              width: 245,
+              density: 150,
+              name: '1x'
+            },
+            {
+              quality: 100,
+              width: 490,
+              density: 300,
+              name: '2x'
+            }
+          ]
+        },
+
+        files: [{
+          expand: true,
+          // process Featured Work images
+          // NOTE: no Bitmoji image at this breakpoint because it's
+          // limited to the same dimensions as the medium breakpoint
+          src: ['*.jpg', '!real_uche.jpg'],
+          cwd: 'images_lg/',
+          dest: 'images_resp/lg/'
+        }]
       }
     },
 
@@ -172,6 +236,11 @@ module.exports = function(grunt) {
       // task target for folder for medium breakpoint
       med: {
         src: ['images_resp/md']
+      },
+
+      // task target for folder for large breakpoint
+      lg: {
+        src: ['images_resp/lg']
       }
     },
 
@@ -188,6 +257,13 @@ module.exports = function(grunt) {
       med: {
         options: {
           create: ['images_resp/md']
+        }
+      },
+
+      // task target for folder for medium breakpoint
+      lg: {
+        options: {
+          create: ['images_resp/lg']
         }
       }
     }
@@ -210,6 +286,14 @@ module.exports = function(grunt) {
     'responsive_images:med_logo',
     'responsive_images:med_my_pic',
     'responsive_images:med_featured_work'
+  ]);
+
+  // task for images for large breakpoint
+  grunt.registerTask('lg_imgs', [
+    'clean:lg',
+    'mkdir:lg',
+    'responsive_images:lg_my_pic',
+    'responsive_images:lg_featured_work'
   ]);
 
 };
