@@ -1,9 +1,14 @@
 /* General styling */
 
+@font-face {
+  font-family: 'Neuzeit';
+  src: url('../fonts/NeuzeitSLTStd-Book.otf');
+}
+
 html,
 body {
   box-sizing: border-box;
-  font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+  font-family: "Neuzeit", "Open Sans", Verdana, Arial, Helvetica, sans-serif;
   margin: auto;
   max-width: 900px;
 }
